@@ -17,8 +17,8 @@
   <link rel="icon" type="image/png" href="{% static "portfolio/Logo.png" %}">
   <title>Pranav</title>
 </head>
-
-<body>
+                                                  
+<body>                          
 
   <nav id="topNav" class="navbar navbar-expand-md navbar-light">
     <div class="container">
@@ -44,13 +44,13 @@
             <a role="button" href="{% url 'blog:all_blogs' %}" class="btn btn-primary">Blog</a>
           </li>
         </ul>
-      </div>
+      </div>                       
     </div>
   </nav>
   <div class="container">
     {% block content %}{% endblock %}
   </div>
-
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
